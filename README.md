@@ -43,14 +43,12 @@ El cual usaremos para desarrollar y probar antes de subir nuestro proyecto a un 
 2. Abrí el panel de control de XAMPP.  
 3. Iniciá los siguientes servicios: Apache y MySQL.
 
----
 
 ### 2. Crear la base de datos
 1. Entrá a: (http://localhost/phpmyadmin).
 2. Creá una nueva base de datos, para nosotros sería: **merced**
 3. No es necesario crear tablas (WordPress lo hará automáticamente).
 
----
 
 ### 3. Descargar y descomprimir WordPress
 1. Descargamos la última versión desde: (https://wordpress.org/download/).
@@ -60,7 +58,6 @@ C:\xampp\htdocs\
 C:\xampp\htdocs\merced
 4. Accedé luego a:(http://localhost/merced).
 
----
 
 ### 4. Configurar `wp-config.php`
 1. Dentro de la carpeta de WordPress, renombrá:
@@ -76,7 +73,6 @@ define('DB_HOST', 'localhost'); // Normalmente "localhost" o "Localhost:3307" si
 
 3. Guardá los cambios.
 
----
 
 ### 5.Instalación desde el navegador
 1. Abrír el navegador en:
@@ -89,12 +85,12 @@ define('DB_HOST', 'localhost'); // Normalmente "localhost" o "Localhost:3307" si
 3. Hacer clic en
 **Instalar WordPress**
 
----
 
 ### 6. Iniciar sesión
 1. Acceder a:
 (http://localhost/merced/wp-admin)
 2. Usá el usuario y contraseña creados en la instalación.
+
 
 ### 7. Ajustes generales
 1. Entrá en: Ajustes → Generales
@@ -105,13 +101,13 @@ define('DB_HOST', 'localhost'); // Normalmente "localhost" o "Localhost:3307" si
 *Formato de fecha y hora*
 
 
----
-
 ### 8. Configurar enlaces permanentes
 1. Ir a Ajustes → Enlaces permanentes  
 2. Seleccionar *Nombre de la entrada*
 3. Las URLs quedarán así:  
 (**http://localhost/merced/ejemplo-de-entrada/**)
+
+---
 
 ## Cómo usar WordPress
 
